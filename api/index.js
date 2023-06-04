@@ -6,6 +6,10 @@ const app = express();
 // Rutas
 app.use('/api/user',user)
 
+app.use('/', (req,resp) =>{
+    resp.send("Ruta principal")
+})
+
 app.listen(config.api.port, () =>{
     console.log("Escuchando en el puerto ",config.api.port);
 });
