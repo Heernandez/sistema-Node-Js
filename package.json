@@ -1,0 +1,22 @@
+{
+  "name": "sistema-node-js",
+  "version": "1.0.0",
+  "description": "Creacion de un sistema con Node Js de Microservicios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heernandez/sistema-Node-Js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heernandez/sistema-Node-Js/issues"
+  },
+  "homepage": "https://github.com/Heernandez/sistema-Node-Js#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
